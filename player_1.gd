@@ -35,6 +35,8 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite2D.play("player-1-jump")
 	else:
 		$AnimatedSprite2D.play("player-1-idle")
+
+#process loop is here V
 		
 func _process(delta: float) -> void:
 	#go back to main menu
